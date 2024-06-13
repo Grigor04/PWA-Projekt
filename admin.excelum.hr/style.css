@@ -1,0 +1,493 @@
+#sidebar-nav {
+            width: 100px;
+            align-items: center;
+        }
+        .navbar-btn {
+            width: 20%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            display: inline-block;  
+            box-sizing: border-box;
+            outline: none;
+            color: black;
+            margin-bottom: 10px; /* Add margin between buttons */
+            margin-right: 2%;
+        }
+        .btn{
+            background-color: whitesmoke;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            display: inline-block;  
+            box-sizing: border-box;
+            outline: none;
+            color: black;
+            width: 100%;
+            opacity: 70%;
+                font-style: italic;
+                font-weight: 500;
+                width: inherit;
+        }
+        .edits{
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            outline: none;
+            color: black;
+            margin-bottom: 1%;
+            margin-right: 2%;
+        }
+        .file-input-edits{
+            background-color:#f1f0f0;
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            outline: none;
+            color: black;
+            margin-bottom: 1%;
+            margin-right: 2%;
+        }
+
+
+ 
+        .btn-group{
+            width: 50%;
+        }
+        .custom-select{
+            width: 100%;
+            
+            display: block;
+            border: 1px solid #7e7e7e;
+            border-radius: 20px;
+            background-color: #f1f0f0;
+            box-sizing: border-box;
+            opacity: 70%;
+                font-style: italic;
+
+        }
+
+        .label1{
+            width: 100%;
+                padding: 10px 20px;
+                margin: 10px 0;
+                display: block;
+                border: 1px solid #7e7e7e;
+                border-radius: 20px;
+                background-color: #f1f0f0;
+                box-sizing: border-box;
+                opacity: 70%;
+                font-style: italic;
+                font-weight: 500;
+        }
+            .file-input::-webkit-file-upload-button {
+  visibility: hidden;
+      }
+
+    .file-input::before {
+    content: 'Odaberi naslovnu fotografiju...';
+    }
+    .file-input{
+        width: 100%;
+                padding: 10px 20px;
+                margin: 10px 0;
+                display: block;
+                border: 1px solid #7e7e7e;
+                border-radius: 20px;
+                background-color: #f1f0f0;
+                box-sizing: border-box;
+                opacity: 70%;
+                font-style: italic;
+                font-weight: 500;
+    }
+        .txt-input{
+                width: 100%;
+                padding: 10px 20px;
+                margin: 10px 0;
+                display: block;
+                border: 1px solid #7e7e7e;
+                border-radius: 20px;
+                background-color: #f1f0f0;
+                box-sizing: border-box;
+        }
+        .txtarea-input{
+            width: 100%;
+                padding: 10px 20px;
+                margin: 10px 0;
+                display: block;
+                border: 1px solid #7e7e7e;
+                border-radius: 20px;
+                background-color: #f1f0f0;
+                box-sizing: border-box;
+        }
+.txtarea-input1{
+            width: 100%;
+                padding: 10px 20px;
+                margin: 10px 0;
+                display: block;
+                border: 1px solid #7e7e7e;
+                border-radius: 20px;
+                background-color: #f1f0f0;
+                box-sizing: border-box;
+        }
+
+        .input-group{
+            width: 50% !important;
+        }
+
+        ::placeholder{
+                opacity: 70%;
+                font-style: italic;
+                font-weight: 500;
+            }
+
+        button:hover {
+            background: linear-gradient(to right, #0097b2, #7dd858);
+            box-shadow: 0 5px #7e7979;
+            transform: scale(1.1);
+            transition: all 200ms ease-in-out;
+        }
+        .tagovi{
+    width: 100%;
+}
+
+.tagovii{
+    width: 100%;
+}
+.listaa{
+    width: 100%;
+	
+}
+
+.content ul{
+    display: flex;
+    border: 1px soild #a6a6a6;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 12px 0;
+	
+}
+.content ul li{
+    margin: 4px 3px;
+    list-style: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    padding: 5px 8px 5px 10px;
+    border: 1px solid #e3d1e1;
+}
+
+.content ul li i{
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    background: #dfdfdf;
+    border-radius: 50%;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #808080;
+}
+
+.content ul input{
+    outline: none;
+    border: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+
+.wrapper{
+  width: 100%;
+  /* border-radius: 10px; */
+  /* padding: 18px 0px 20px; */
+  /* width: 100%; */
+                
+}
+.wrapper :where(.title, li, li i, .details){
+  display: flex;
+  align-items: center;
+}
+
+
+.wrapper .content{
+  margin: 10px 0;
+}
+.content p{
+  font-size: 15px;
+}
+.content ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px;
+  margin: 12px 0;
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+}
+.content ul  li{
+  color: #333;
+  margin: 4px 3px;
+  list-style: none;
+  border-radius: 5px;
+  background: #F2F2F2;
+  padding: 5px 8px 5px 10px;
+  border: 1px solid #e3e1e1;
+}
+.content ul li i{
+  height: 20px;
+  width: 20px;
+  color: #808080;
+  margin-left: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #dfdfdf;
+  justify-content: center;
+}
+
+.content ul input{
+  flex: 1;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+        @media (max-width: 768px) {
+            .navbar-btn {
+                width: 100%; /* Make buttons full width on smaller screens */
+            }
+            .edits {
+                width: 100%; /* Make buttons full width on smaller screens */
+            }
+            .txt-input {
+                width: 100% !important; 
+            }
+
+            
+            .txtarea-input {
+                width: 100% !important; 
+            }
+		.txtarea-input1 {
+                width: 100% !important; 
+            }
+
+            .file-input {
+                width: 100% !important; 
+            }
+            .wrapper{
+                width: 100% !important; 
+            }
+            .input-group {
+                width: 100% !important; 
+            }
+            .btn-group{
+            width: 100% !important  ;
+        }
+        .file-input-edits{
+            width: 100% !important;
+        }
+        }
+		
+		
+.dropright {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropright .dropdown-menu {
+      display: none;
+      position: absolute;
+      z-index: 1090;
+      top: 0;
+      left: 105%;
+      margin-left: 0;
+	  border-radius: 20px;
+    }
+
+    .dropright:hover > .dropdown-menu {
+      display: block;
+    }
+
+    /* Adjust dropdown position on small screens */
+    @media (max-width: 576px) {
+      .dropright .dropdown-menu {
+        top: 100%;
+        left: 0;
+        margin-left: 0;
+      }
+    }
+	
+	.btn-c {
+  height: 70px;
+  line-height: 70px;  
+  width: 70px;  
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 50%;
+  background: linear-gradient(to right, #0097b2, #7dd858);
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.remove-arrow.dropdown-toggle::before {
+      display: none !important;
+    }
+	
+	
+	.vertical-center {
+      display: flex;
+      align-items: left;
+      justify-content: center;
+      height: 50px; /* Adjust height as needed */
+      
+    }
+	
+	
+.btn-dp {
+            width: 20%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            display: inline-block;  
+            box-sizing: border-box;
+            outline: none;
+            color: black;
+            margin-bottom: 10px; /* Add margin between buttons */
+            margin-right: 2%;
+        }
+
+        .btn-dr {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            display: inline-block;  
+            box-sizing: border-box;
+            outline: none;
+            color: black;
+            margin-bottom: 10px; /* Add margin between buttons */
+            margin-right: 2%;
+        }
+		
+		.btn-dots {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #000;
+            border-radius: 100%;
+            background: none;
+        }
+		
+.image-container {
+    position: relative;
+	z-index: 1;
+}
+
+.sise{
+	z-index: 1991;
+}
+
+.dropdown {
+    transform: translateY(110%);
+	z-index: 900;
+}
+
+@media (max-width: 768px) {
+            .btn-dp {
+                width: 100%; /* Make buttons full width on smaller screens */
+            }
+            #head{
+                width: 100%;
+            }
+            
+        }
+		
+.delpos{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            display: inline-block;  
+            box-sizing: border-box;
+            outline: none;
+            color: black;
+            margin-bottom: 10px; /* Add margin between buttons */
+            margin-right: 2%;
+        }
+        button:hover {
+            background: linear-gradient(to right, #0097b2, #7dd858);
+            box-shadow: 0 5px #666;
+            transform: scale(1.1);
+            transition: all 200ms ease-in-out;
+        }
+
+        .row .col-sm img {
+            width: 100%;
+            height: 60%;
+        }
+        .row .col-sm{
+            border-radius:10%;
+            background-color:#bfbfbf;
+            height: 120%; /* Set height to auto to allow vertical expansion */
+
+        }
+     
+        .position{
+            background-color:#18a3a1;
+            color:whitesmoke;
+            width:50%;
+            border-radius: 4%;
+        }
+
+        @media (max-width: 768px) {
+            button {
+                width: 100%; /* Make buttons full width on smaller screens */
+            }
+
+            .row .col-sm{
+                width:100%;
+                margin-bottom: 10%;
+            }
+            .delpos{
+                width:100%;
+            }
+            .position{
+            width:100%;
+        }
+        .dodatni_input_blog{
+            width: 100% !important; 
+            color:red;
+        }
+        }
+		
+		
+		/* Custom CSS to override default tag styles */
+    .bootstrap-tagsinput {
+      width: 100%;
+    }
+    .bootstrap-tagsinput .tag {
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 4px;
+      padding: 2px 6px;
+      margin-right: 2px;
+    }
+    .bootstrap-tagsinput .tag [data-role="remove"] {
+      display: inline-block;
+      padding-left: 4px;
+      cursor: pointer;
+    }
+    .bootstrap-tagsinput .tag [data-role="remove"]::after {
+      content: "×";
+      color: #fff;
+      padding-left: 2px;
+    }
+    .bootstrap-tagsinput input {
+      color: #000;
+    }
+	
+    .nav-link{
+        color: gray;
+    }

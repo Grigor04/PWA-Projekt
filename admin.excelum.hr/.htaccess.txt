@@ -1,0 +1,10 @@
+# Enable PHP 8.2
+AddHandler application/x-httpd-php82 .php
+
+# Set PHP 8.2 as default
+<FilesMatch \.php$>
+    SetHandler application/x-httpd-php82
+</FilesMatch>
+
+# Optionally, you might also enable index.php as a default document
+DirectoryIndex index.php
