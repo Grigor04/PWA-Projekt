@@ -163,13 +163,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table !excelumnovi.users: ~4 rows (approximately)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `user`, `password`) VALUES
-	(1, 'dnuic', 'lozinka123');
-INSERT INTO `users` (`id`, `user`, `password`) VALUES
-	(3, 'pmalcevic', 'Excelum321');
-INSERT INTO `users` (`id`, `user`, `password`) VALUES
-	(4, 'mbratanovic', 'Excelum123');
-INSERT INTO `users` (`id`, `user`, `password`) VALUES
-	(7, 'dramulic', 'excDennissamja3!');
+	(1, 'admin', 'lozinka123');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
